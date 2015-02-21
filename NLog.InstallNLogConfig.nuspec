@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>sample</id>
+    <version>1.0.0</version>
+    <authors>NLog</authors>
+    <dependencies>
+      <dependency id="NLog" version="3.2.0" />
+    </dependencies> 
+  </metadata>
+  <files>
+    <file src="NLog.InstallNLogConfig\netfx35\NLog.InstallNLogConfig.exe" target="tools\netfx35" />
+    <file src="NLog.InstallNLogConfig\netfx40\NLog.InstallNLogConfig.exe" target="tools\netfx40" />
+    <file src="NLog.InstallNLogConfig\netfx45\NLog.InstallNLogConfig.exe" target="tools\netfx45" />
+  </files>
+</package>
