@@ -15,3 +15,5 @@ build:
   publish_nuget: true
   publish_nuget_symbols: true
   verbosity: minimal
+artifacts:
+- path: '*.nupkg'
