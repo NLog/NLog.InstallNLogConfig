@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>NLog.InstallNLogConfig</id>
+    <version>1.0.0</version>
+    <authors>NLog</authors>
+    <owners>NLog</owners>
+    <licenseUrl>https://github.com/NLog/NLog.InstallNLogConfig/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/NLog/NLog.InstallNLogConfig</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Tool for install NLog configuration</description>
+    <copyright>Copyright 2015</copyright>
+    <tags>nlog log logging config</tags>
+    <dependencies>
+      <dependency id="NLog" version="3.2.0" />
+    </dependencies> 
+  </metadata>
+  <files>
+    <file src="NLog.InstallNLogConfig\netfx35\bin\Release\NLog.InstallNLogConfig.exe" target="tools\netfx35" />
+    <file src="NLog.InstallNLogConfig\netfx40\bin\Release\NLog.InstallNLogConfig.exe" target="tools\netfx40" />
+    <file src="NLog.InstallNLogConfig\netfx45\bin\Release\NLog.InstallNLogConfig.exe" target="tools\netfx45" />
+  </files>
+</package>
