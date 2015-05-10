@@ -12,8 +12,8 @@ nuget:
 before_build:
 - ps: nuget restore
 build:
-  publish_nuget: true
-  publish_nuget_symbols: true
   verbosity: minimal
 artifacts:
 - path: '*.nupkg'
+after_test:
+- ps: nuget pack .\NLog.InstallNLogConfig.nuspec -Version $env:APPVEYOR_BUILD_VERSION
