@@ -7,6 +7,7 @@
     <owners>NLog</owners>
     <licenseUrl>https://github.com/NLog/NLog.InstallNLogConfig/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/NLog/NLog.InstallNLogConfig</projectUrl>
+    <iconUrl>http://nlog-project.org/N.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Tool for install NLog configuration</description>
     <copyright>Copyright 2015</copyright>
