@@ -5,15 +5,14 @@
 Extensions to [NLog](https://github.com/NLog/NLog/).
 
 Install and uninstall target specific objects
-
-
-===
-
-Usage: InstallNLogConfig [options] NLog.config...
-
 Performs installation/uninstallation that requires administrative permissions
 (such as Event Log sources, databases, etc).
 
+
+Usage
+===
+
+`InstallNLogConfig [options] NLog.config...`
 
 Options:
 <pre>
