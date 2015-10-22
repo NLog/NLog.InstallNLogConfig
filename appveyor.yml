@@ -16,4 +16,4 @@ build:
 artifacts:
 - path: '*.nupkg'
 after_test:
-- ps: nuget pack .\NLog.InstallNLogConfig.nuspec -Version $env:2.0
+- ps: nuget pack .\NLog.InstallNLogConfig.nuspec -Version 2.0
